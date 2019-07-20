@@ -1,10 +1,10 @@
-function taxed(amount): number {
+function taxed(amount: number): number {
     return amount * 1.1
 }
-function fee(amount): number {
+function fee(amount: number): number {
     return amount * 1.4
 }
-function price(amount): number {
+function price(amount: number): number {
     return `${fee(amount)}`
 }
 
