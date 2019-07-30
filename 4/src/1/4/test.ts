@@ -18,3 +18,15 @@ registerUser(notUser)
 
 registerUser({})
 registerUser()
+
+registerUser({
+    age: 26,
+    name: 'Taro',
+    gender: 'male'
+})
+
+registerUser({...{
+    age: 26,
+    name: 'Taro',
+    gender: 'male'
+}})
