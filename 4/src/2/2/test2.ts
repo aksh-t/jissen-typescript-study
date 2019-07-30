@@ -1,7 +1,7 @@
 type Answer = 'mighty' | 'lot' | 'few' | 'entirely'
 type User3 = {
     name: string
-    enquete: { [k: string]: Answer}
+    enquete: { [k: string]: Answer | undefined }
 }
 const userA3: User3 = {
     name: 'Taro',
@@ -12,3 +12,4 @@ const userA3: User3 = {
 }
 const x3 = userA3.enquete['exercise_habits']
 const y3 = userA3.enquete['steps_per_day']
+// const y3: Answer
