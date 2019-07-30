@@ -1,5 +1,5 @@
 interface User5 {
-    [k: string]: Function
+    [k: string]: () => Promise<any>
 }
 const user5: User5 = {
     name: 'Taro',
