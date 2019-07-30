@@ -1,5 +1,5 @@
 interface User5 {
-    [k: string]: any
+    [k: string]: Function
 }
 const user5: User5 = {
     name: 'Taro',
