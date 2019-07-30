@@ -1,4 +1,4 @@
-function greet(name: string) {
+function greet(name?: string) {
     return `Hello ${name}`
 }
 console.log(greet())
