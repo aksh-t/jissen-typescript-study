@@ -1,4 +1,4 @@
-function greet(): any {
+function greet() {
     console.log('hello')
 }
 const message = greet()
